@@ -21,6 +21,11 @@ a:focus, a:hover {
 	font-style: italic;
 }
 /* the styles for the header */
+header {
+	border-bottom-style: solid;
+	border-bottom-color: #931420;
+}
+
 header h2 {
 	font-size: 175%;
 	color: var(--global-color-1);
