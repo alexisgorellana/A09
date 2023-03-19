@@ -24,17 +24,24 @@ a:focus, a:hover {
 header {
 	border-bottom-style: solid;
 	border-bottom-color: #931420;
+	padding-bottom: 2em;
+	padding-top: 1.5em;
+	background-image: linear-gradient(30deg, #f6bb73, #f6bb73, white, #f6bb73, #f6bb73);
+}
+
+header img {
+	padding-left: 30px;
+	padding-right: 30px;
+
 }
 
 header h2 {
 	font-size: 175%;
 	color: var(--global-color-1);
-	text-indent: 30px;
 }
 header h3 {
 	font-size: 130%;
 	font-style: italic;
-	text-indent: 30px;
 }
 header img {
 	float: left;
@@ -45,7 +52,17 @@ header img {
 /* the styles for the main content */
 main {
 	clear: left;
+	padding-left: 30px;
+	padding-right: 30px;
 }
+
+main h1 {
+	border-top-style: solid;
+	border-top-color: #931420;
+	border-bottom-style: solid;
+	border-bottom-color: #931420;
+}
+
 main h1 {
 	font-size: 150%;
 	padding: .3em 0;
@@ -80,4 +97,15 @@ main li {
 footer p {
 	text-align: center;
 	padding: 1em 0;
+	background-color: #931420;
+	color: white;
+}
+
+blockquote {
+	font-style: italic;
+}
+
+*{
+	padding: 0px;
+	margin: 0px;
 }
